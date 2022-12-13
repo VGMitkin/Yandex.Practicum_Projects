@@ -1,18 +1,18 @@
-## Проект. Аналитика в авиакомпании
-### Описание проекта
+## Project. Analytics in the airline
+### Description of the project
 
-Российская авиакомпания F9 выполняет внутренние пассажирские перевозки. Важно понять предпочтения пользователей, покупающих билеты на разные направления.
-Предстоит изучить базу данных и проанализировать спрос пассажиров на рейсы в города, где проходят крупнейшие культурные фестивали.
+The Russian airline F9 performs domestic passenger transportation. It is important to understand the preferences of users who buy tickets to different destinations.
+It is necessary to study the database and analyze the demand of passengers for flights to cities where the largest cultural festivals are held.
 
-### Содержание проекта 
-1) Провести исследовательский анализ данных средствами SQL.
-2) Соберать данные для анализа из базы.
-3) Проанализировать данные средствами Python.
+### Content of the project
+1) Conduct an exploratory data analysis using SQL.
+2) Collect data for analysis from the database.
+3) Analyze the data using Python.
 
-### Библиотеки, используемые в проекте:
-- SQL
-- Pandas
-- Numpy 
-- Seaborn 
-- Scipy
+### Libraries used in the project:
+-SQL
+- pandas
+- Numpy
+- Seaborn
+-Scipy
 - Plotly
