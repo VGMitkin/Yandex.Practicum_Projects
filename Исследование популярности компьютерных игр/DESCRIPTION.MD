@@ -1,41 +1,41 @@
-## Проект. Исследование игровых платформ
-### Описание проекта
-Интернет-магазине «Стримчик» продаёт по всему миру компьютерные игры. Из открытых источников доступны исторические данные о продажах игр, оценки пользователей и экспертов, жанры и платформы (например, Xbox или PlayStation). Нужно выявить определяющие успешность игры закономерности. Это позволит сделать ставку на потенциально популярный продукт и спланировать рекламные кампании. 
+## Project. Research of gaming platforms
+### Description of the project
+The Strimchik online store sells computer games all over the world. Historical game sales data, user and expert ratings, genres and platforms (such as Xbox or PlayStation) are available from public sources. It is necessary to identify patterns that determine the success of the game. This will allow you to bid on a potentially popular product and plan advertising campaigns.
 
-Перед вами данные до 2016 года. Представим, что сейчас декабрь 2016 г., и вы планируете кампанию на 2017-й. Нужно отработать принцип работы с данными. Не важно, прогнозируете ли вы продажи на 2017 год по данным 2016-го или же 2027-й — по данным 2026 года.  
+Here is the data up to 2016. Let's say it's December 2016 and you're planning a campaign for 2017. It is necessary to work out the principle of working with data. It doesn't matter if you're forecasting 2017 sales based on 2016 data or 2027 sales based on 2026 data.
 
-В наборе данных попадается аббревиатура ESRB (Entertainment Software Rating Board) — это ассоциация, определяющая возрастной рейтинг компьютерных игр. ESRB оценивает игровой контент и присваивает ему подходящую возрастную категорию, например, «Для взрослых», «Для детей младшего возраста» или «Для подростков».  
+The abbreviation ESRB (Entertainment Software Rating Board) comes across in the data set - this is an association that determines the age rating of computer games. The ESRB evaluates game content and assigns it to an appropriate age rating, such as Mature, Toddler, or Teen.
 
-### Содержание проекта
-1. Изучение общей информации о данных
+### Content of the project
+1. Exploring general information about the data
 
-2. Подготовка данных
-    - Заменить названия столбцов (приведите к нижнему регистру)
-    - Преобразовать данные в нужные типы
-    - Обработать пропуски при необходимости
-    - Посчитайте суммарные продажи во всех регионах
+2. Data preparation
+     - Replace column names (bring to lower case)
+     - Convert data to desired types
+     - Handle gaps if necessary
+     - Calculate the total sales in all regions
     
-3. Анализ данных и ответы на вопросы
-    - Сколько игр выпускалось в разные годы. Выбрать платформы с наибольшими суммарными продажами и построить распределение по годам. 
-    - За какой характерный срок появляются новые и исчезают старые платформы?
-    - Какие платформы лидируют по продажам, растут или падают?
-    - Построить график «ящик с усами» по глобальным продажам каждой игры и разбивкой по платформам. Велика ли разница в продажах? А в средних продажах на разных платформах?
-    - Как влияют на продажи внутри одной популярной платформы отзывы пользователей и критиков?
-    - Что можно сказать о самых прибыльных жанрах? Выделяются ли жанры с высокими и низкими продажами?
+3. Data analysis and answering questions
+     - How many games were produced in different years. Select platforms with the highest total sales and plot the distribution by year.
+     - What is the characteristic period for new platforms to appear and old ones to disappear?
+     - Which platforms are leading in sales, growing or falling?
+     - Plot a box-and-mustache plot of each game's global sales and breakdown by platform. Is there a big difference in sales? What about average sales across platforms?
+     - How do user reviews and critics influence sales within one popular platform?
+     - What can you say about the most profitable genres? Do genres with high and low sales stand out?
     
-4. Составление портрета пользователя каждого региона и ответы на вопросы
-    - Какие самые популярные платформы (топ-5)?
-    - Какие самые популярные жанры (топ-5)?
-    - Влияет ли возрастной рейтинг на продажи в отдельном регионе?
+4. Drawing up a portrait of the user of each region and answering questions
+     - What are the most popular platforms (top 5)?
+     - What are the most popular genres (top 5)?
+     - Does the age rating affect sales in a particular region?
 
-5. Проверка гипотез
-    - Гипотеза 1 - Средние пользовательские рейтинги платформ Xbox One и PC одинаковые;
-    - Гипотеза 2 - Средние пользовательские рейтинги жанров Action и Sports разные.
+5. Hypothesis testing
+     - Hypothesis 1 - The average user ratings of the Xbox One and PC platforms are the same;
+     - Hypothesis 2 - The average user ratings of the Action and Sports genres are different.
     
-### Библиотеки, используемые в проекте:
-- Pandas
+### Libraries used in the project:
+- pandas
 - Numpy
-- Scipy
-- Math
-- Matplotlib
+-Scipy
+-Math
+- matplotlib
 - Seaborn
