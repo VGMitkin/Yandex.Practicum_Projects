@@ -1,33 +1,32 @@
-## Проект. Определение перспективного тарифа для телеком компании
-### Описание проекта
-Компания «Мегалайн» — федеральный оператор сотовой связи. Клиентам предлагают два тарифных плана: «Смарт» и «Ультра». Чтобы скорректировать рекламный бюджет, коммерческий департамент хочет понять, какой тариф приносит больше денег. 
+## Project. Determination of a prospective tariff for a telecom company
+### Description of the project
+Megaline is a federal mobile operator. Clients are offered two tariff plans: "Smart" and "Ultra". To adjust the advertising budget, the commercial department wants to understand which tariff brings in more money.
 
-Необходимо сделать предварительный анализ тарифов на небольшой выборке клиентов. В распоряжении данные 500 пользователей «Мегалайна»: кто они, откуда, каким тарифом пользуются, сколько звонков и сообщений каждый отправил за 2018 год. Нужно проанализировать поведение клиентов и сделать вывод — какой тариф лучше.
+It is necessary to make a preliminary analysis of tariffs on a small sample of customers. The data of 500 Megaline users is available: who they are, where they are from, what tariff they use, how many calls and messages each sent in 2018. It is necessary to analyze the behavior of customers and draw a conclusion - which tariff is better.
 
-### Содержание проекта
-1. Изучение общей информации о данных
+### Content of the project
+1. Exploring general information about the data
 
-2. Подготовка данных
-    - Привести данные к нужным типам;
-    - Найти и исправьте ошибки в данных.
-    Посчитать для каждого пользователя:
-    - количество сделанных звонков и израсходованных минут разговора по месяцам;
-    - количество отправленных сообщений по месяцам;
-    - объем израсходованного интернет-трафика по месяцам;
-    - помесячную выручку с каждого пользователя.
+2. Data preparation
+     - Convert data to the required types;
+     - Find and correct data errors.
+     Calculate for each user:
+     - the number of calls made and spent minutes of conversation by month;
+     - the number of sent messages by month;
+     - the amount of Internet traffic used by months;
+     - monthly revenue from each user.
 
-3. Анализ данных
-    - Описать поведение клиентов оператора, исходя из выборки. 
-    - Сколько минут разговора, сколько сообщений и какой объём интернет-трафика требуется пользователям каждого тарифа в месяц? 
+3. Data analysis
+     - Describe the behavior of the operator's clients based on the sample.
+     - How many minutes of conversation, how many messages and how much Internet traffic do users of each tariff need per month?
 
-4. Проверка гипотез
-    - Гипотеза 1 - Средняя выручка пользователей тарифов «Ультра» и «Смарт» различается;
-    - Гипотеза 2 - Средняя выручка пользователей из Москвы отличается от выручки пользователей из других регионов;
+4. Hypothesis testing
+     - Hypothesis 1 - The average revenue of users of "Ultra" and "Smart" tariffs differs;
+     - Hypothesis 2 - The average revenue of users from Moscow differs from the revenue of users from other regions;
     
-### Библиотеки, используемые в проекте:
-- Pandas
+### Libraries used in the project:
+- pandas
 - Numpy
-- Scipy
-- Math
-- Matplotlib
-
+-Scipy
+-Math
+- matplotlib
