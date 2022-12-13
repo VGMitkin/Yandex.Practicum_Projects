@@ -1,26 +1,26 @@
-## Проект. Прогнозирование тональной окраски комментариев
-### Описание проекта
+## Project. Comment Tone Prediction
+### Description of the project
 
-Интернет-магазин «Викишоп» запускает новый сервис. Теперь пользователи могут редактировать и дополнять описания товаров, как в вики-сообществах. То есть клиенты предлагают свои правки и комментируют изменения других. Магазину нужен инструмент, который будет искать токсичные комментарии и отправлять их на модерацию.
-Обучите модель классифицировать комментарии на позитивные и негативные. В вашем распоряжении набор данных с разметкой о токсичности правок.  
-Постройте модель со значением метрики качества F1 не меньше 0.75.
+Online store "Wikishop" launches a new service. Now users can edit and supplement product descriptions, just like in wiki communities. That is, clients propose their edits and comment on the changes of others. The store needs a tool that will look for toxic comments and submit them for moderation.
+Train the model to classify comments into positive and negative. At your disposal is a dataset with markup on the toxicity of edits.
+Build a model with a quality metric F1 value of at least 0.75.
 
-### Содержание проекта 
-- Загрузите и подготовка данных.
-- Обучение разных моделей.
-- Сделать выводы.
+### Content of the project
+- Download and prepare data.
+- Training of different models.
+- To conclude.
 
 
 
-### Библиотеки, используемые в проекте:
-- Pandas
-- Numpy 
-- Seaborn 
-- SKlearn 
+### Libraries used in the project:
+- pandas
+- Numpy
+- Seaborn
+- SKlearn
 - Re
-- Nltk 
-- Torch 
-- Transformers 
-- XGBoost 
-- Catboost
+- Nltk
+- Torch
+- Transformers
+- XGBoost
+- catboost
 - LightGBM
