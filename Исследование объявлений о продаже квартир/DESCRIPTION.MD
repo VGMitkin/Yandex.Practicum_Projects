@@ -1,26 +1,26 @@
-## Проект. Исследование объявлений о продаже квартир
-### Краткое описание  
-В распоряжении данные сервиса Яндекс.Недвижимость — архив объявлений о продаже квартир в Санкт-Петербурге и соседних населённых пунктов за несколько лет. Нужно научиться определять рыночную стоимость объектов недвижимости. Ваша задача — установить параметры. Это позволит построить автоматизированную систему: она отследит аномалии и мошенническую деятельность. 
+## Project. Research of advertisements for the sale of apartments
+### Short description
+At the disposal of the data service Yandex.Realty - an archive of ads for the sale of apartments in St. Petersburg and neighboring settlements for several years. You need to learn how to determine the market value of real estate. Your job is to set the parameters. This will allow to build an automated system: it will track anomalies and fraudulent activity.
 
-По каждой квартире на продажу доступны два вида данных. Первые вписаны пользователем, вторые — получены автоматически на основе картографических данных. Например, расстояние до центра, аэропорта, ближайшего парка и водоёма. 
+Two types of data are available for each apartment for sale. The first ones are entered by the user, the second ones are obtained automatically on the basis of cartographic data. For example, the distance to the center, airport, nearest park and reservoir.
 
-### Содержание проекта
-1. Изучение общей информации о данных  
-2. Предобработка данных:
-    - определение и изучение пропущенных значений
-    - приведение данных к нужным типам
-3. Посчитать и добавить в таблицу:
-    - цену квадратного метра;
-    - день недели, месяц и год публикации объявления;
-    - этаж квартиры; варианты — первый, последний, другой;
-    - соотношение жилой и общей площади, а также отношение площади кухни к общей.
-4. Провести исследовательский анализ данных и проанализировать:
-    - Зависимость площади от цены квартиры 
-    - Зависимость удаленности от центра и цены квартиры
-    - Зависимость количества комнат и цены квартиры
-    - Зависимость типа этажности квартиры и цены квартиры
-    - Зависимость дня недели, месяца, года и цены квартиры
+### Content of the project
+1. Exploring general information about the data
+2. Data preprocessing:
+     - identification and study of missing values
+     - casting data to the required types
+3. Calculate and add to the table:
+     - price per square meter;
+     - day of the week, month and year of publication of the announcement;
+     - floor of the apartment; options - first, last, other;
+     - the ratio of residential and total area, as well as the ratio of kitchen area to total.
+4. Conduct an exploratory data analysis and analyze:
+     - Dependence of the area on the price of the apartment
+     - Dependence of distance from the center and the price of the apartment
+     - Dependence of the number of rooms and the price of the apartment
+     - Dependence of the type of number of storeys of the apartment and the price of the apartment
+     - Dependence of the day of the week, month, year and apartment price
 
-### Библиотеки, используемые в проекте:
-- Pandas
-- Matplotlib
+### Libraries used in the project:
+- pandas
+- matplotlib
