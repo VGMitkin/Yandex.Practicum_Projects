@@ -1,20 +1,20 @@
-## Проект. Проект. Компьютерное зрение
-### Описание проекта
-Сетевой супермаркет «Хлеб-Соль» внедряет систему компьютерного зрения для обработки фотографий покупателей. Фотофиксация в прикассовой зоне поможет определять возраст клиентов, чтобы:
+## Project. computer vision
+### Description of the project
+Khleb-Sol chain supermarket introduces a computer vision system for processing customers' photos. Photo fixation in the checkout area will help determine the age of customers in order to:
 
-- Анализировать покупки и предлагать товары, которые могут заинтересовать покупателей этой возрастной группы;
-- Контролировать добросовестность кассиров при продаже алкоголя. Постройте модель, которая по фотографии определит приблизительный возраст человека. В вашем распоряжении набор фотографий людей с указанием возраста.
+- Analyze purchases and offer products that may be of interest to buyers of this age group;
+- Control the conscientiousness of cashiers when selling alcohol. Build a model that will determine the approximate age of a person from a photograph. At your disposal is a set of photographs of people with age indication.
 
-### Содержание проекта 
-- Провести исследовательский анализ набора фотографий.
-- Подготовить данные к обучению.
-- Обучить нейронную сеть и рассчитайте её качество.
+### Content of the project
+- Conduct an exploratory analysis of a set of photographs.
+- Prepare data for training.
+- Train the neural network and calculate its quality.
 
 
-### Библиотеки, используемые в проекте:
-- Pandas, 
-- Numpy 
-- Matplotlib
-- Seaborn 
-- PIL 
+### Libraries used in the project:
+- pandas,
+- Numpy
+- matplotlib
+- Seaborn
+-PIL
 - Keras
