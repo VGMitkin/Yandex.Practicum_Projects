@@ -1,18 +1,18 @@
-## Проект. Рекомендация тарифов
-### Описание проекта
-Оператор мобильной связи «Мегалайн» выяснил: многие клиенты пользуются архивными тарифами. Они хотят построить систему, способную проанализировать поведение клиентов и предложить пользователям новый тариф: «Смарт» или «Ультра».
+## Project. Tariff recommendation
+### Description of the project
+The mobile operator "Megaline" found out that many customers use archival tariffs. They want to build a system that can analyze customer behavior and offer users a new tariff: "Smart" or "Ultra".
 
-В распоряжении данные о поведении клиентов, которые уже перешли на эти тарифы. Нужно построить модель для задачи классификации, которая выберет подходящий тариф. Предобработка данных уже сделана.
+At the disposal of data on the behavior of customers who have already switched to these tariffs. You need to build a model for the classification problem that will select the appropriate rate. Data preprocessing has already been done.
 
-Необходимо построить модель с максимально большим значением *accuracy*. Нужно довести долю правильных ответов по крайней мере до 0.75 и проверить *accuracy* на тестовой выборке.
+It is necessary to build a model with the largest possible *accuracy* value. You need to bring the percentage of correct answers to at least 0.75 and check *accuracy* on the test set.
 
-### Содержание проекта
-1 - Ознакомление с данными.  
-2 - Разделить исходные данные на обучающую, валидационную и тестовую выборки.  
-3 - Исследование качество разных моделей, меняя гиперпараметры.  
-4 - Проверка качество модели на тестовой выборке.  
-5 - Проверка модели на вменяемость.  
+### Content of the project
+1 - Acquaintance with the data.
+2 - Divide the initial data into training, validation and test sets.
+3 - Study the quality of different models by changing the hyperparameters.
+4 - Checking the quality of the model on a test sample.
+5 - Checking the model for sanity.
 
-### Библиотеки, используемые в проекте:
-- Pandas
+### Libraries used in the project:
+- pandas
 - SKlearn
