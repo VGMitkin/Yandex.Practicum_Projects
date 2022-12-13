@@ -1,23 +1,23 @@
-## Проект. Отток клиентов
-### Описание проекта
-Из «Бета-Банка» стали уходить клиенты. Каждый месяц. Немного, но заметно. Банковские маркетологи посчитали: сохранять текущих клиентов дешевле, чем привлекать новых.
+## Project. Customer churn
+### Description of the project
+Customers began to leave Beta-Bank. Every month. A little, but noticeable. Banking marketers figured it was cheaper to keep current customers than to attract new ones.
 
-Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. Предоставлены исторические данные о поведении клиентов и расторжении договоров с банком. 
+It is necessary to predict whether the client will leave the bank in the near future or not. Provided historical data on customer behavior and termination of agreements with the bank.
 
-Нужно построить модель с предельно большим значением *F1*-меры. Нужно довести метрику минимум до 0.59.  
-Проверить *F1*-меру на тестовой выборке.
+It is necessary to build a model with an extremely large *F1*-measure. It is necessary to bring the metric to at least 0.59.
+Check *F1*-measure on the test set.
 
-Дополнительно измерить *AUC-ROC*, сравнивая её значение с *F1*-мерой.
+Additionally measure *AUC-ROC*, comparing its value with *F1*-measure.
 
-Источник данных: [https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling](https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling)
+Data Source: [https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling](https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling)
 
-### Содержание проекта
-1 - Ознакомление с данными.  
-2 - Исследование баланса классов, обучение модели без учёта дисбаланса.  
-3 - Улучшение качества модели, учитывая дисбаланс классов. Обучение разных модели и нахожение лучшей.  
-4 - Проверка качество модели на тестовой выборке.
+### Content of the project
+1 - Acquaintance with the data.
+2 - Study of the class balance, training the model without taking into account the imbalance.
+3 - Improving the quality of the model, taking into account the imbalance of classes. Training different models and finding the best one.
+4 - Checking the quality of the model on a test sample.
 
-### Библиотеки, используемые в проекте:
-- Pandas
-- Matplotlib
+### Libraries used in the project:
+- pandas
+- matplotlib
 - SKlearn
