@@ -1,45 +1,45 @@
-## Проект. Поиск прибыльных нефтяных месторождений. 
-### Описание проекта
-Для добывающей компании «ГлавРосГосНефть» нужно решить, где бурить новую скважину.
+## Project. Search for profitable oil fields.
+### Description of the project
+The mining company GlavRosGosNeft needs to decide where to drill a new well.
 
-Предоставлены пробы нефти в трёх регионах: в каждом 10 000 месторождений, где измерили качество нефти и объём её запасов. Необходимо построить модель машинного обучения, которая поможет определить регион, где добыча принесёт наибольшую прибыль. Проанализировать возможную прибыль и риски техникой *Bootstrap.*
+Oil samples were provided in three regions: in each 10,000 fields, where the quality of oil and the volume of its reserves were measured. It is necessary to build a machine learning model that will help determine the region where mining will bring the greatest profit. Analyze possible profits and risks using the *Bootstrap.* technique
 
-#### Шаги для выбора локации:
+#### Steps to choose a location:
 
-- В избранном регионе ищут месторождения, для каждого определяют значения признаков;
-- Строят модель и оценивают объём запасов;
-- Выбирают месторождения с самым высокими оценками значений. Количество месторождений зависит от бюджета компании и стоимости разработки одной скважины;
-- Прибыль равна суммарной прибыли отобранных месторождений.
+- In the selected region, they are looking for deposits, for each, the values of the signs are determined;
+- Build a model and estimate the volume of reserves;
+- Select the deposits with the highest value estimates. The number of fields depends on the company's budget and the cost of developing one well;
+- The profit is equal to the total profit of the selected fields.
 
-#### Условия задачи:
- - Для обучения модели подходит только линейная регрессия (остальные — недостаточно предсказуемые).
- - При разведке региона проводится исследование 500 точек.
- - Бюджет на разработку месторождений — 10 млрд рублей, стоимость бурения одной скважины — 50 млн рублей.
- - Один баррель сырья приносит 4500 рублей прибыли.
- - Не рассматривать регионы, в которых риск убытков выше 2.5%. Из оставшихся выбирается регион с наибольшей средней прибылью.
+#### Conditions of the problem:
+  - Only linear regression is suitable for training the model (the rest are not predictable enough).
+  - When exploring a region, 500 points are explored.
+  - The budget for field development is 10 billion rubles, the cost of drilling one well is 50 million rubles.
+  - One barrel of raw materials brings 4,500 rubles of profit.
+  - Do not consider regions where the risk of loss is higher than 2.5%. Of the remaining regions, the region with the highest average profit is selected.
 
-### Содержание проекта
-1. Изучение общей информации о данных  
-2. Обучение модели для каждого региона:  
-  2.1. Разбить данные на обучающую и валидационную выборки в соотношении 75:25.  
-  2.2. Обучить модель и сделайть предсказания на валидационной выборке.  
-  2.3. Сохраниье предсказания и правильные ответы на валидационной выборке.  
-  2.4. Напечатать на экране средний запас предсказанного сырья и RMSE модели.  
-  2.5. Проанализируйте результаты.  
-3. Подготовка к расчёту прибыли:  
-  3.1. Все ключевые значения для расчётов сохранить в отдельных переменных.  
-  3.2. Рассчитайте достаточный объём сырья для безубыточной разработки новой скважины. Сравните полученный объём сырья со средним запасом в каждом регионе.  
-4. Написание функцию для расчёта прибыли по выбранным скважинам и предсказаниям модели:  
-  4.1. Выберить скважины с максимальными значениями предсказаний.  
-  4.2. Просуммировать целевое значение объёма сырья, соответствующее этим предсказаниям.  
-  4.3. Рассчитать прибыль для полученного объёма сырья.  
-5. Посчитаnm риски и прибыль для каждого региона:  
-  5.1. Применить технику Bootstrap с 1000 выборок, чтобы найти распределение прибыли.  
-  5.2. Найти среднюю прибыль, 95%-й доверительный интервал и риск убытков.  
-  5.3. Предложить регион для разработки скважин.  
+### Content of the project
+1. Exploring general information about the data
+2. Model training for each region:
+   2.1. Split the data into training and validation samples in a ratio of 75:25.
+   2.2. Train the model and make predictions on the validation set.
+   2.3. Preservation of predictions and correct answers on the validation set.
+   2.4. Print on the screen the average stock of the predicted raw material and the RMSE of the model.
+   2.5. Analyze the results.
+3. Preparation for profit calculation:
+   3.1. Save all key values for calculations in separate variables.
+   3.2. Calculate enough raw materials to break even the development of a new well. Compare the volume of raw materials received with the average stock in each region.
+4. Writing a function for calculating profit for selected wells and model predictions:
+   4.1. Select wells with maximum prediction values.
+   4.2. Sum the target value of the volume of raw materials corresponding to these predictions.
+   4.3. Calculate the profit for the received volume of raw materials.
+5. Calculate risks and profits for each region:
+   5.1. Apply the Bootstrap technique with 1000 samples to find the profit distribution.
+   5.2. Find the average profit, 95% confidence interval and risk of loss.
+   5.3. Suggest a region for well development.
   
-  ### Библиотеки, используемые в проекте:
-- Pandas
+   ### Libraries used in the project:
+- pandas
 - Numpy
-- Scipy
+-Scipy
 - SKlearn
