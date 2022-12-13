@@ -1,21 +1,21 @@
-## Проект. Прогнозирование количества заказов такси
-### Описание проекта
+## Project. Forecasting the number of taxi orders
+### Description of the project
 
-Компания «Чётенькое такси» собрала исторические данные о заказах такси в аэропортах. Чтобы привлекать больше водителей в период пиковой нагрузки, нужно спрогнозировать количество заказов такси на следующий час. Постройте модель для такого предсказания.
-Значение метрики RMSE на тестовой выборке должно быть не больше 48.
-
-
-### Содержание проекта 
-- Загрузка данных и их ресемплирование по одному часу.
-- Анализ данных.
-- Обучение разных моделей с различными гиперпараметрами. Проверка данных на тестовой выборке.
+The Clear Taxi company has collected historical data on taxi orders at airports. To attract more drivers during the peak period, you need to predict the number of taxi orders for the next hour. Build a model for such a prediction.
+The value of the RMSE metric on the test sample should be no more than 48.
 
 
-### Библиотеки, используемые в проекте:
-- Pandas
+### Content of the project
+- Loading data and resampling them for one hour.
+- Data analysis.
+- Training different models with different hyperparameters. Validation of data on a test sample.
+
+
+### Libraries used in the project:
+- pandas
 - Numpy
-- Matplotlib
+- matplotlib
 - SKlearn
-- XGBoost 
-- Catboost 
+- XGBoost
+- catboost
 - LightGBM
