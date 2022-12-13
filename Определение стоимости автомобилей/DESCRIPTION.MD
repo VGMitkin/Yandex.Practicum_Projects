@@ -1,26 +1,26 @@
-## Проект. Определения стоимости автомобиля
-### Описание проекта
+## Project. Vehicle value determinations
+### Description of the project
 
-Сервис по продаже автомобилей с пробегом «Не бит, не крашен» разрабатывает приложение для привлечения новых клиентов. В нём можно быстро узнать рыночную стоимость своего автомобиля. В вашем распоряжении исторические данные: технические характеристики, комплектации и цены автомобилей. Нужно построить модель для определения стоимости.
+Service for the sale of used cars "Not beaten, not beautiful" is developing an application to attract new customers. In it, you can quickly find out the market value of your car. At your disposal are historical data: technical specifications, equipment and prices of cars. You need to build a model to determine the cost.
 
-Заказчику важны:
+The customer is important:
 
-качество предсказания;
-скорость предсказания;
-время обучения.
+prediction quality;
+prediction speed;
+studying time.
 
 
-### Содержание проекта 
-- Загрузка и подготовка данные.
-- Обучение разных моделей с различными гиперпараметрами.
-- Анализ скорости работы и качества моделей.
+### Content of the project
+- Loading and preparing data.
+- Training different models with different hyperparameters.
+- Analysis of the speed and quality of models.
 
-### Библиотеки, используемые в проекте:
-- Pandas
+### Libraries used in the project:
+- pandas
 - Numpy
-- Matplotlib
+- matplotlib
 - Seaborn
 - SKlearn
-- XGBoost 
-- Catboost 
+- XGBoost
+- catboost
 - LightGBM
