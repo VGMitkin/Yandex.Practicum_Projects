@@ -1,22 +1,22 @@
-## Проект. Защита персональных данных клиентов страховой компании
-### Описание проекта
-Необходимо защитить данные клиентов страховой компании «Хоть потоп». Разработать метод преобразования данных, чтобы по ним было сложно восстановить персональную информацию. Обосновать корректность его работы.
+## Project. Protection of personal data of clients of the insurance company
+### Description of the project
+It is necessary to protect the data of clients of the insurance company "Though the Flood". Develop a data transformation method to make it difficult to recover personal information from them. Justify the correctness of his work.
 
-Нужно защитить данные, чтобы при преобразовании качество моделей машинного обучения не ухудшилось.
+You need to protect the data so that the quality of the machine learning models does not deteriorate during the transformation.
 
 
-### Содержание проекта  
-1. Изучение общей информации о данных  
-2. Ответить на вопрос  
-   Признаки умножают на обратимую матрицу. Изменится ли качество линейной регрессии? (Её можно обучить заново.)  
-        -  Изменится. Приведите примеры матриц.  
-        - Не изменится. Укажите, как связаны параметры линейной регрессии в исходной задаче и в преобразованной.  
-3. Предложить алгоритм преобразования данных для решения задачи. Обосновать почему качество линейной регрессии не поменяется.  
-4. Запрограммировать этот алгоритм, применив матричные операции. Проверить, что качество линейной регрессии из sklearn не отличается до и после преобразования. Применить метрику R2.  
+### Content of the project
+1. Exploring general information about the data
+2. Answer the question
+    The features are multiplied by an invertible matrix. Will the quality of linear regression change? (It can be retrained.)
+         - Will change. Give examples of matrices.
+         - Will not change. Specify how the linear regression parameters are related in the original problem and in the transformed one.
+3. Suggest a data transformation algorithm for solving the problem. Justify why the quality of linear regression will not change.
+4. Program this algorithm by applying matrix operations. Check that the quality of the linear regression from sklearn is not different before and after the transformation. Apply metric R2.
 
-### Библиотеки, используемые в проекте:
-- Pandas
+### Libraries used in the project:
+- pandas
 - Numpy
-- Matplotlib
+- matplotlib
 - Seaborn
 - SKlearn
